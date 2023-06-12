@@ -1,0 +1,18 @@
+.nav {
+ font-family: Poppins Medium;
+ font-size: 18px;
+ color: var(--prussianBlue);
+ background-color: var(--white);
+ padding-top: 15px;
+ padding-left: 20px;
+ padding-right: 20px;
+ border-top-left-radius: 40px;
+ border-top-right-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+
+  &__images {
+    display: flex;
+    gap: 5px;
+  }
+}

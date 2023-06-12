@@ -1,0 +1,96 @@
+.appointment {
+  margin-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: var(--prussianBlue);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  h2 {
+    font-family: Poppins Regular;
+    font-size: 24px;
+  }
+
+  &__doctor {
+    background-color: var(--white);
+    border-radius: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    &--name {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      h3 {
+        font-family: Poppins SemiBold;
+        font-size: 18px;
+      }
+
+      h6 {
+        font-family: Poppins Regular;
+        font-size: 10px;
+      }
+
+      &-mail {
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+      }
+    }
+    &--dateAndTime {
+      display: flex;
+      gap: 30px;
+
+      h6 {
+        font-family: Poppins Regular;
+        font-size: 10px;
+      }
+
+      h2 {
+        font-family: Poppins SemiBold;
+        font-size: 14px;
+      }
+
+      &-date {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+
+    &--address {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      h6 {
+        font-family: Poppins Regular;
+        font-size: 10px;
+      }
+      h2 {
+        font-family: Poppins SemiBold;
+        font-size: 14px;
+      }
+
+      &-map {
+        display: flex;
+        align-items: center;
+
+        h6 {
+          color: var(--navyBlue);
+          font-family: Poppins Regular;
+          font-size: 6px;
+        }
+      }
+    }
+
+    &--icon {
+      display: flex;
+      justify-content: end;
+      gap: 5px;
+    }
+  }
+}
